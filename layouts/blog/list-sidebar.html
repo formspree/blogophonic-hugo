@@ -1,0 +1,15 @@
+{{ define "main" }}
+<main class="page-main pa4 {{ .Kind }}" role="main">
+  <section class="blog-content mw7 center">
+    {{ $paginator := .Paginate (where .Pages "Type" "blog") }}
+    {{ range $paginator.Pages }}
+      {{ .Render "summary" }}
+    {{ end }}
+    {{ partial "shared/list-pagination.html" . }}
+  </section>
+</main>
+<aside class="page-sidebar" role="complementary">
+  {{ .Scratch.Set "sidebar" .Site.Data.sidebar_content.blog.list_sidebar }}
+  {{ partial "shared/sidebar-content.html" . }}
+</aside>
+{{ end }}

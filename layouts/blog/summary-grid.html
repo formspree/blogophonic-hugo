@@ -1,0 +1,13 @@
+<article class="w-100 w-50-m w-third-l mb4 pb4 bb bw1 bw0-ns pb0-ns">
+  {{ if .CurrentSection.Params.show_post_thumbnail }}
+  <div class="ph0 ph2-m ph3-l">
+    <div class="cover aspect-ratio aspect-ratio--1x1"{{ with $.Param "images" }}{{ range first 1 .}} style="background: url('{{ . | absURL }}') center center no-repeat"{{ end }}{{ end }}><a href="{{ .Permalink }}" class="w-100 absolute top-0 bottom-0"></a></div>
+  </div>
+  {{ end }}
+  <div class="ph0 pa2-m pa3-l">
+    <h1 class="f3 f4-l mv2 lh-title"><a href="{{ .Permalink }}" class="db">{{ .Title }}</a></h1>
+    <p class="f6 lh-copy">{{ if .Params.Excerpt }}{{ .Params.Excerpt }}{{ else }}{{ .Summary }}{{ end }}</p>
+    {{ if .CurrentSection.Params.show_author_byline }}<p class="f7 db mv1">{{ if .Params.author }}By {{ .Params.author }}{{ end }}{{ with .Params.categories }} in{{ range . }} <a href="{{ "categories/" | absURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}{{ end }}</p>{{ end }}
+    {{ if .CurrentSection.Params.show_post_date }}<p class="f7 db mv1">{{ .PublishDate.Format "January 2, 2006" }}</p>{{ end }}
+  </div>
+</article>

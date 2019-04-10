@@ -1,0 +1,62 @@
+baseURL = "http://example.org/"
+languageCode = "en"
+title = "Blogophonic"
+author = "Formspree Team"
+description = "A modern, beautiful, and easily configurable blog theme for Hugo."
+copyright = "" # set to override the auto generated copyright using org info and now year
+googleAnalytics = ""
+disqusShortname = ""
+metaDataFormat = "yaml"
+pygmentsCodeFences = true
+pygmentsOptions = "linenos=table"
+# see more styles https://help.farbox.com/pygments.html
+pygmentsStyle = "friendly"
+footnoteReturnLinkContents = "&#8617;" # ↩
+# set deliberately low for testing choose your preffered number based on the blog layout you've chosen
+paginate = 3
+preserveTaxonomyNames = true
+
+[params]
+  orgName = "Formspree, Inc."
+  orgLocal = "Austin, TX"
+  favicon = "/img/favicon.ico?v=0"
+  logo = "/img/blogophonic-mark-dark.png"
+  # font options: sans-serif or serif
+  # for more http://tachyons.io/docs/typography/font-family/
+  textFontFamily = "sans-serif"
+  headingFontFamily = "sans-serif"
+  # basic color options: use only color names as shown in the
+  # "Color Palette" section of http://tachyons.io/docs/themes/skins/
+  siteBgColor = "near-white"
+  sidebarBgColor = "light-gray"
+  headlineColor = "dark-pink"
+  headingColor = "near-black"
+  textColor = "dark-gray"
+  sidebarTextColor = "mid-gray"
+  bodyLinkColor = "blue"
+  navLinkColor = "near-black"
+  sidebarLinkColor = "near-black"
+  footerTextColor = "silver"
+  buttonTextColor = "near-white"
+  buttonBgColor = "black"
+  buttonHoverTextColor = "white"
+  buttonHoverBgColor = "blue"
+  borderColor = "moon-gray"
+  # show/hide social icons in site header/footer
+  socialInHeader = false
+  socialInFooter = false
+
+[social]
+  # social accounts (username only)
+  facebook = "formspree"
+  facebook_admin = "" # Facebook Page Admin ID for Domain Insights
+  instagram = ""
+  youtube = ""
+  twitter = "formspree"
+  github = "formspree"
+  medium = ""
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"

@@ -1,0 +1,18 @@
+
+{{ with .Scratch.Get "sidebar" }}
+
+{{ if .image }}<img src="{{ .image }}" class="db ma0">{{ end }}
+<div class="blog-info pa4">
+  {{ if .title }}<h1 class="f3">{{ .title }}</h1>{{ end }}
+  {{ if .description }}<p class="f6 lh-copy measure">{{ .description }}</p>{{ end }}
+  {{ if .author }}<p class="f7 measure lh-copy i mh0-l">Written by {{ .author }}</p>{{ end }}
+  {{ if .text_link_label }}<small class="db f7"><a href="{{ .text_link_url }}" class="dib fw7 ttu bt bw1 b--black-10 pt3">{{ .text_link_label }}</a></small>{{ end }}
+</div>
+{{ if .show_sidebar_adunit }}
+<div class="ad-unit pa4">
+  <!-- sample advertisement -->
+  <p class="f7 measure-narrow lh-copy mv0"><span class="b ttu db">Brought to you by Formspree</span><span><a href="https://formspree.io" target="_blank">Formspree is a form backend, API and email service for HTML forms</a>. It is the simplest way to collect submissions from contact us forms, order forms, or email capture forms on your static website.</span></p>
+</div>
+{{ end }}
+
+{{ end }}
