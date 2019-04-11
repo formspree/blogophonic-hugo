@@ -5,7 +5,7 @@ blog: # must match the slug of your blog
     description: "This is a fully featured blog that supports categories,
     tags, series, and pagination. Even this sidebar offers a ton of customizations.
     Check out the sidebar_content.yaml file in the /data folder to edit this content."
-    author: The Team at Formspree
+    author: 
     text_link_label: View Recent Posts
     text_link_url: /blog
     show_sidebar_adunit: true # show ad container

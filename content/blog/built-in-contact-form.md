@@ -17,17 +17,16 @@ categories:
 layout: single-sidebar
 ---
 
-## <img src="/blog/assets/formspree-logo-mark.png" align="left" height="88" class="mr4">[Formspree is a form backend, API and email service for HTML forms](https://formspree.io).
+![Formspree Logo](/blog/assets/formspree-logo.png)
 
-### It is a simple and easy way to collect submissions from contact us forms, order forms, or email capture forms on a static site.
+## [Formspree](https://formspree.io) makes it easy to receive email submissions from HTML forms on your static website.
 
 ---
 
-This theme has a **form-to-email** feature built in, thanks to the simple
-Formspree integration. All you need to activate the form is a valid recipient
-email address saved in the front matter of the form
-(`/content/forms/contact.md`), replace `YOUREMAILHERE` with your uh, email
-address.
+### Functional Form
+
+This theme has a **form-to-email** feature built in, thanks to the simple Formspree integration. All you need to activate the form is a valid recipient email address saved in the front matter of the form
+(`/content/forms/contact.md`). Of course, the example shown below (`YOUREMAILHERE`) must not be used. Please use your actual email address.
 
 ```toml
 # please replace with a valid email address
@@ -38,6 +37,8 @@ Update that file and you're ready to begin receiving submissions. Just submit
 the active form for the first time, and complete the email address verification
 step with Formspree, and your contact form is live. The next time someone
 fills it out, the submission will land in your inbox.
+
+### Multiple Layouts
 
 The files included with the theme have a contact page ready for copy/paste, or
 you can type `hugo new forms/contact.md` and you're off to the races. There are two
