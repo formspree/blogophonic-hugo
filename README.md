@@ -1,4 +1,4 @@
-# _Blogophonic_ - a Hugo Theme by [Formspree](https://formspree.io)
+# _Blogophonic_ - a Hugo Site by [Formspree](https://formspree.io)
 
 A modern, beautiful, and easily configurable blog theme for Hugo that includes a dedicated page with a functional contact form.
 
