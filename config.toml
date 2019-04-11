@@ -18,7 +18,7 @@ preserveTaxonomyNames = true
 
 [params]
   orgName = "Formspree, Inc."
-  orgLocal = "Austin, TX"
+  orgLocal = "San Antonio, TX"
   favicon = "/img/favicon.ico?v=0"
   logo = "/img/blogophonic-mark-dark.png"
   # font options: sans-serif or serif
