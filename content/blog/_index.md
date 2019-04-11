@@ -1,7 +1,6 @@
 ---
 title: A Blog That's Real
-description: "This is a fully featured blog that supports categories,
-  tags, series, and pagination."
+description: "This is a fully featured blog that supports categories, tags, series, and pagination."
 author: The Team at Formspree
 images:
   - https://via.placeholder.com/960x480?text=SECTION+IMAGE
@@ -14,5 +13,4 @@ show_post_date: true
 show_disqus_comments: false # see disqusShortname in site config
 ---
 
-** No content for the blog index. This file provides the frontmatter for the
-blog including the blog layout and sidebar features above. **
+** No content for the blog index. This file provides front matter for the blog including the layout and boolean options. **

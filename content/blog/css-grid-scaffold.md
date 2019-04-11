@@ -11,7 +11,7 @@ images:
 series:
 - Getting Started
 tags:
-- hugo-theme
+- hugo-site
 categories:
 - Theme Features
 # layout options: single or single-sidebar

@@ -6,9 +6,9 @@
   <ul class="paginate list pl0 tc dt w-100 ma0">
     <li class="dtc w-25 tl v-mid">
     {{ if $pag.HasPrev }}
-      <a href="{{ $pag.Prev.URL }}" class="previous pa2 db fw6" aria-label="Previous">{{ $previous_label }}</a>
+      <a href="{{ $pag.Prev.URL }}" class="previous pa2 db fw6" aria-label="Previous">&larr; {{ $previous_label }}</a>
     {{ else }}
-      <span class="previous pa2 db fw6">{{ $previous_label }}</span>
+      <span class="previous pa2 db fw6">&larr; {{ $previous_label }}</span>
     {{ end }}
     </li>
     <li class="dtc w-50 v-mid">
@@ -16,9 +16,9 @@
     </li>
     <li class="dtc w-25 tr v-mid">
     {{ if $pag.HasNext }}
-      <a href="{{ $pag.Next.URL }}" class="next pa2 db fw6" aria-label="Next">{{ $next_label }}</a>
+      <a href="{{ $pag.Next.URL }}" class="next pa2 db fw6" aria-label="Next">{{ $next_label }} &rarr;</a>
     {{ else }}
-      <span class="next pa2 db fw6">{{ $next_label }}</span>
+      <span class="next pa2 db fw6">{{ $next_label }} &rarr;</span>
     {{ end }}
     </li>
   </ul>

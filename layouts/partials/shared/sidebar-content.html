@@ -4,7 +4,7 @@
 {{ if .image }}<img src="{{ .image }}" class="db ma0">{{ end }}
 <div class="blog-info pa4">
   {{ if .title }}<h1 class="f3">{{ .title }}</h1>{{ end }}
-  {{ if .description }}<p class="f6 lh-copy measure">{{ .description }}</p>{{ end }}
+  {{ if .description }}<p class="f6 lh-copy measure">{{ .description | markdownify }}</p>{{ end }}
   {{ if .author }}<p class="f7 measure lh-copy i mh0-l">Written by {{ .author }}</p>{{ end }}
   {{ if .text_link_label }}<small class="db f7"><a href="{{ .text_link_url }}" class="dib fw7 ttu bt bw1 b--black-10 pt3">{{ .text_link_label }}</a></small>{{ end }}
 </div>

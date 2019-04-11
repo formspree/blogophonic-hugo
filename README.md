@@ -2,7 +2,7 @@
 
 A modern, beautiful, and easily configurable blog theme for Hugo that includes a dedicated page with a functional contact form.
 
-![screenshot](images/screenshot.png)
+![screenshot](img/screenshot.png)
 
 ## Three Reasons to Use Blogophonic
 
@@ -14,7 +14,7 @@ A modern, beautiful, and easily configurable blog theme for Hugo that includes a
 
 ## Site Configuration
 
-The following site configuration options are found in the `config.toml` file at the root of your Hugo site. **Recommended:** Simply copy the file from the `/exampleSite` directory included in the theme and edit to fit your project.
+The following site configuration options are found in the `config.toml` file at the root of this Hugo site.
 
 ### Font Options
 
@@ -114,13 +114,13 @@ show_sidebar_adunit: true # show ad container
 
 ### Contact Page
 
-The team at Formspree built this theme to help take the pain out of a functional contact form on a static website. You can use `hugo new` to create a new form in the `/form` directory or, just use the one found in `/exampleSite`.
+The team at Formspree built this theme to help take the pain out of a functional contact form on a static website. You can use `hugo new` to create a new form in the `/form` directory or, just use the one already present in the site content.
 
 ```bash
-hugo new form/[formname].md
+hugo new form/contact.md
 ```
 
-Outside of the auto-generated front matter that defines the form name, title, date, and url, there are still a few options for you to choose. Most important is the `submission_email_recipient` key. Specify your email address as the value here to get your form ready.
+Outside of the auto-generated front matter that defines the form name, title, date, and url, there are still a few options for you to choose. Most important is the `submission_email_recipient` key. Replace `YOUREMAILHERE` with your email address as the value get your form ready.
 
 You can also specify a description that will display below the title, choose a right or left position for the form itself via `layout`, set a preferred `submit_button_label`, and toggle a few things on or off.
 
@@ -128,9 +128,9 @@ You can also specify a description that will display below the title, choose a r
 description:
 layout: split-right # split-right or split-left
 submit_button_label: Send
-submission_email_recipient: email@domain.tld
 show_social_links: true
 show_poweredby_formspree: true
+submission_email_recipient: YOUREMAILHERE
 ```
 
 ### Regular Page
@@ -185,12 +185,12 @@ $borderColorCustom: #c4beb9;
 ## Usage
 
 ```bash
-git clone https://github.com/formspree/hugo-blog.git themes/blogophonic
+git clone https://github.com/formspree/blogophonic-hugo.git themes/blogophonic
 ```
 
 ## License
 
-Distributed under the [MIT License](https://github.com/formspree/hugo-blog/blob/master/LICENSE).
+Distributed under the [MIT License](https://github.com/formspree/blogophonic-hugo/blob/master/LICENSE).
 
 ---
 

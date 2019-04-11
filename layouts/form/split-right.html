@@ -4,7 +4,7 @@
     <div class="flex-ns">
       <div class="w-50-ns pr4-ns">
         <h1 class="f2 f1-ns measure lh-solid">{{ .Title }}</h1>
-        <p class="f5 measure-narrow lh-copy">{{ .Description | safeHTML }}</p>
+        <p class="f5 measure-narrow lh-copy">{{ .Description | markdownify }}</p>
         {{ if .Params.show_social_links }}
         <p class="measure-narrow mv4 lh-copy">
           {{ partial "shared/social-links.html" . }}

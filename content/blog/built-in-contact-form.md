@@ -11,13 +11,13 @@ images:
 series:
   - Getting Started
 tags:
-  - hugo-theme
+  - hugo-site
 categories:
   - Theme Features
 layout: single-sidebar
 ---
 
-## [Formspree is a form backend, API and email service for HTML forms](https://formspree.io).
+## <img src="/blog/assets/formspree-logo-mark.png" align="left" height="88" class="mr4">[Formspree is a form backend, API and email service for HTML forms](https://formspree.io).
 
 ### It is a simple and easy way to collect submissions from contact us forms, order forms, or email capture forms on a static site.
 
@@ -36,14 +36,14 @@ submission_email_recipient: YOUREMAILHERE
 
 Update that file and you're ready to begin receiving submissions. Just submit
 the active form for the first time, and complete the email address verification
-step with Formspree, and your contact form is live, and the next time someone
+step with Formspree, and your contact form is live. The next time someone
 fills it out, the submission will land in your inbox.
 
 The files included with the theme have a contact page ready for copy/paste, or
 you can type `hugo new forms/contact.md` and you're off to the races. There are two
 layouts for `forms` – `split-right`, and `split-left` – you guessed it, one puts
-the form on the right and the other on the left. You just fill out the Front
-Matter, and the rest is automatic.
+the form on the right and the other on the left. You just fill out the front
+matter, and the rest is automatic.
 
 ```toml
 # layout options: split-right or split-left

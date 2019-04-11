@@ -1,6 +1,6 @@
 blog: # must match the slug of your blog
   single_sidebar: # for single-sidebar layout
-    image: 
+    image:
     title: A Blog That's Real
     description: "This is a fully featured blog that supports categories,
     tags, series, and pagination. Even this sidebar offers a ton of customizations.
