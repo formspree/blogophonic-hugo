@@ -2,7 +2,7 @@
 
 A modern, beautiful, and easily configurable blog theme for Hugo that includes a dedicated page with a functional contact form.
 
-![screenshot](img/screenshot.png)
+![screenshot](static/img/screenshot.png)
 
 ## Three Reasons to Use Blogophonic
 
