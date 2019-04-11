@@ -1,6 +1,7 @@
 ---
-title: Blog Section Title
-description: The blog section description should be long enough to adequately illustrate the purpose of the blog section, but not so long as to go on and on. Be clear and concise, certainly not verbose since nobody has time for that these days.
+title: A Blog That's Real
+description: "This is a fully featured blog that supports categories,
+  tags, series, and pagination."
 author: The Team at Formspree
 images:
   - https://via.placeholder.com/960x480?text=SECTION+IMAGE

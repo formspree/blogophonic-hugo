@@ -1,16 +1,20 @@
 blog: # must match the slug of your blog
   single_sidebar: # for single-sidebar layout
-    image: https://via.placeholder.com/960x480?text=SECTION+IMAGE
-    title: Blog Section Title
-    description: The blog section description should be long enough to adequately illustrate the purpose of the blog section, but not so long as to go on and on. Be clear and concise, certainly not verbose since nobody has time for that these days.
-    author:
+    image: 
+    title: A Blog That's Real
+    description: "This is a fully featured blog that supports categories,
+    tags, series, and pagination. Even this sidebar offers a ton of customizations.
+    Check out the sidebar_content.yaml file in the /data folder."
+    author: The Team at Formspree
     text_link_label: View Recent Posts
     text_link_url: /blog
     show_sidebar_adunit: true # show ad container
   list_sidebar: # for list-sidebar layout
     image:
-    title: Blog Section Title
-    description: The blog section description should be long enough to adequately illustrate the purpose of the blog section, but not so long as to go on and on. Be clear and concise, certainly not verbose since nobody has time for that these days.
+    title: A Blog That's Real
+    description: "This is a fully featured blog that supports categories,
+    tags, series, and pagination. Even this sidebar offers a ton of customizations.
+    Check out the sidebar_content.yaml file in the /data folder."
     author: The Team at Formspree
     text_link_label: Subscribe via RSS
     text_link_url: /feed.xml
