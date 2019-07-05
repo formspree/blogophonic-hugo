@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en"
 title = "Blogophonic"
 author = "Formspree"
