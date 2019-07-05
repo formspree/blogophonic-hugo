@@ -120,7 +120,7 @@ The team at Formspree built this theme to help take the pain out of a functional
 hugo new form/contact.md
 ```
 
-Outside of the auto-generated front matter that defines the form name, title, date, and url, there are still a few options for you to choose. Most important is the `submission_email_recipient` key. Replace `YOUREMAILHERE` with your email address as the value get your form ready.
+Outside of the auto-generated front matter that defines the form name, title, date, and url, there are still a few options for you to choose. Most important is the `formspree_form_id` key. Replace `your@email.here` with your email address as the value get your form ready.
 
 You can also specify a description that will display below the title, choose a right or left position for the form itself via `layout`, set a preferred `submit_button_label`, and toggle a few things on or off.
 
@@ -130,7 +130,7 @@ layout: split-right # split-right or split-left
 submit_button_label: Send
 show_social_links: true
 show_poweredby_formspree: true
-submission_email_recipient: YOUREMAILHERE
+formspree_form_id: your@email.here
 ```
 
 ### Regular Page

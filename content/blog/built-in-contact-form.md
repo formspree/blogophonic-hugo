@@ -2,7 +2,7 @@
 title: "Built-in Contact Form"
 subtitle: "Form to email feature powered by Formspree"
 excerpt: "This theme has a form-to-email feature built in, thanks to the simple Formspree integration. All you need to activate the form is a valid recipient email address saved in the form front matter."
-date: 2019-03-06T08:31:07-06:00
+date: 2019-07-01
 author: "Eric Anderson"
 draft: false
 images:
@@ -14,23 +14,23 @@ tags:
   - hugo-site
 categories:
   - Theme Features
-layout: single-sidebar
+layout: single
 ---
 
 ![Formspree Logo](/blog/assets/formspree-logo.png)
 
-## [Formspree](https://formspree.io) makes it easy to receive email submissions from HTML forms on your static website.
+## [Formspree](https://formspree.io) makes it easy to receive submissions from HTML forms on your static website.
 
 ---
 
 ### Functional Form
 
 This theme has a **form-to-email** feature built in, thanks to the simple Formspree integration. All you need to activate the form is a valid recipient email address saved in the front matter of the form
-(`/content/forms/contact.md`). Of course, the example shown below (`YOUREMAILHERE`) must not be used. Please use your actual email address.
+(`/content/forms/contact.md`). Of course, the example shown below (`your@email.here`) must not be used. Please use your actual email address.
 
 ```toml
-# please replace with a valid email address
-submission_email_recipient: YOUREMAILHERE
+# please replace with a valid Formspree form id or email address
+formspree_form_id: your@email.here
 ```
 
 Update that file and you're ready to begin receiving submissions. Just submit

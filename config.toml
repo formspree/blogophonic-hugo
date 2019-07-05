@@ -1,7 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en"
 title = "Blogophonic"
-author = "Formspree Team"
+author = "Formspree"
 description = "A modern, beautiful, and easily configurable blog theme for Hugo."
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""

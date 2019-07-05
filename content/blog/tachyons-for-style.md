@@ -2,7 +2,7 @@
 title: "Tachyons for Style"
 subtitle: "A tachyon /ˈtæki.ɒn/ or tachyonic particle is a hypothetical particle that always moves faster than light."
 excerpt: "Building this static site generator theme was the first time I used an Atomic (or Functional) CSS system like Tachyons. It’s a design system that provides very small (which means fast) CSS modules that you can use in your HTML."
-date: 2019-03-06T08:30:27-06:00
+date: 2019-07-03
 author: "Eric Anderson"
 draft: false
 images:

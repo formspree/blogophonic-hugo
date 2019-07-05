@@ -8,7 +8,7 @@ url: {{ replace .Name "-" " " | lower }}
 type: form
 layout: split-right # split-right or split-left
 submit_button_label: Send
-submission_email_recipient: # email@domain.tld
+formspree_form_id: # your@email.here
 show_social_links: true # specify social accounts in site config
 show_poweredby_formspree: true
 ---
