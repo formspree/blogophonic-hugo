@@ -188,13 +188,11 @@ $borderColorCustom: #c4beb9;
 git clone https://github.com/formspree/blogophonic-hugo.git themes/blogophonic
 ```
 
-## License
+## License & Attribution
 
-Distributed under the [MIT License](https://github.com/formspree/blogophonic-hugo/blob/master/LICENSE).
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Blogophonic</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">https://github.com/formspree/blogophonic-hugo</a>.
 
----
+Additionally the following assets have separate licenses:
 
-### Attribution
-
-- **Blogophonic Logo:** "Blog" (in black) by [Alex Berkowitz](https://thenounproject.com/term/blog/19895) from the Noun Project.
-- **Social Icons:** Free SVG icons for popular brands by [Simple Icons](https://simpleicons.org).
+- **Blogophonic Logo:** "Blog" (in black) by [Alex Berkowitz](https://thenounproject.com/term/blog/19895) from the Noun Project. Licensed under [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/us/legalcode). 
+- **Social Icons:** Free SVG icons for popular brands by [Simple Icons](https://simpleicons.org). Licensed under [CC0-1.0](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md).
