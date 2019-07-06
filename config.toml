@@ -17,8 +17,8 @@ paginate = 3
 preserveTaxonomyNames = true
 
 [params]
-  orgName = "Formspree, Inc."
-  orgLocal = "San Antonio, TX"
+  orgName = "Formspree"
+  orgLocal = "Brooklyn, NY"
   favicon = "/img/favicon.ico?v=0"
   logo = "/img/blogophonic-mark-dark.png"
   # font options: sans-serif or serif
