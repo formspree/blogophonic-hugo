@@ -2,6 +2,8 @@
 
 A modern, beautiful, and easily configurable blog theme for Hugo that includes a dedicated page with a functional contact form.
 
+**See the demo [here](https://blogophonic-hugo.netlify.com)**
+
 ![screenshot](static/img/screenshot.png)
 
 ## Three Reasons to Use Blogophonic
