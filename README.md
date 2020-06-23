@@ -1,6 +1,6 @@
 # _Blogophonic_ - a Hugo blog theme by [Formspree](https://formspree.io)
 
-A modern, beautiful, and easily configurable blog theme for Hugo that includes a dedicated page with a functional contact form.
+A modern, beautiful, and easily configurable blog for Hugo that includes a dedicated page with a functional contact form.
 
 **See the demo [here](https://blogophonic-hugo.netlify.com)**
 
@@ -13,6 +13,23 @@ A modern, beautiful, and easily configurable blog theme for Hugo that includes a
 2. **Styled with Tachyons** - A design system for todays modern, generated websites. Avoid complex cascades and unintended side effects while taking advantage of Tachyons community library of components.
 
 3. **Forms Built-in** - Collect inquiries fast and easy with a contact form powered by Formspree ... you don't need a server or any programming knowledge. Just configure the form page and submit once to set it up.
+
+## Usage
+
+This as a full website, not a hugo theme. To use it, just clone the repo, and start hugo at the root:
+
+```
+git clone git@github.com:formspree/blogophonic-hugo.git
+cd blogophonic-hugo
+hugo server
+```
+
+Then you can edit or discard the pages under `content`.
+
+This repo should not be cloned into a git submodule. It's meant to be the top-level folder and includes a `content` folder with several pre-made pages.
+
+We chose to package it this way because at the time it was difficult to distribute a hugo theme with a lot of pre-made pages, images, static content, etc.
+
 
 ## Site Configuration
 
@@ -51,7 +68,7 @@ borderColor = "moon-gray"
 
 ### Social Icons
 
-There are three locations in the theme where you can choose to show social icons: header, footer, and contact page. Header and footer options are found in site config (`config.toml`) alongside the social accounts.
+There are three places where you can choose to show social icons: header, footer, and contact page. Header and footer options are found in site config (`config.toml`) alongside the social accounts.
 
 ```toml
 [params]
@@ -116,7 +133,7 @@ show_sidebar_adunit: true # show ad container
 
 ### Contact Page
 
-The team at Formspree built this theme to help take the pain out of a functional contact form on a static website. You can use `hugo new` to create a new form in the `/form` directory or, just use the one already present in the site content.
+This website comes with a Formspree form that's designed to work with a static website. You can use `hugo new` to create a new form in the `/form` directory or, just use the one already present in the site content.
 
 ```bash
 hugo new form/contact.md
@@ -148,7 +165,7 @@ show_title_as_headline: false
 
 Let’s say you have a style guide to follow and `washed-blue` just won’t cut the mustard. We built Blogophonic for you, too. There is an override of these predefined colors available, you just need to dig a little deeper.
 
-In the theme assets, locate and open the main SCSS file (`/assets/scaffold.scss`). After the crazy looking variables you probably don’t recognize, and directly following the Tachyons import (`@import 'tachyons';`) you’ll see a comment that looks just like this:
+In the `assets` folder, locate and open the main SCSS file (`/assets/scaffold.scss`). After the crazy looking variables you probably don’t recognize, and directly following the Tachyons import (`@import 'tachyons';`) you’ll see a comment that looks just like this:
 
 ```scss
 // uncomment the import below to activate custom-colors
@@ -182,12 +199,6 @@ $buttonHoverTextColorCustom: #f9f9f8;
 $buttonBgColorCustom: #103742;
 $buttonHoverBgColorCustom: #c4001a;
 $borderColorCustom: #c4beb9;
-```
-
-## Usage
-
-```bash
-git clone https://github.com/formspree/blogophonic-hugo.git themes/blogophonic
 ```
 
 ## License & Attribution
