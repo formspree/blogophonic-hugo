@@ -27,4 +27,4 @@ footer:
     url: https://help.formspree.io
   - name: RSS
     title: RSS Feed
-    url: /feed.xml
+    url: /index.xml
