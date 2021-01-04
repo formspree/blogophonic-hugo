@@ -84,9 +84,9 @@ borderColor = "moon-gray"
 Let's say you have a style guide to follow and `washed-blue` just won't cut the
 mustard. We built Blogophonic for you, too. There is a bypass of these
 predefined colors built in, you just need to dig a little deeper. In the theme
-assets, locate and open the main SCSS file (`/assets/main.scss`). After the
+assets, locate and open the main "scaffold" SCSS file (`/assets/scaffold.scss`). After the
 crazy looking variables you probably don't recognize and directly following the
-Tachyons import (`@import 'tachyons';`) you'll see a comment that looks just
+Tachyons import (`@import 'tachyons';`) you'll see a comment on line 24 that looks just
 like this:
 
 ```scss
