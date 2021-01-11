@@ -16,6 +16,8 @@ A modern, beautiful, and easily configurable blog for Hugo that includes a dedic
 
 ## Usage
 
+> NOTE: blogophonic-hugo requires the `extended` version of hugo, since it relies on hugo's built-in SASS processor. As of Jan 11, 2021 `hugo-extended` is installed by default when running `brew install` however, for windows or linux users, you must ensure you've installed the extended version. Please see https://gohugo.io/getting-started/installing/. 
+
 This as a full website, not a hugo theme. To use it, just clone the repo, and start hugo at the root:
 
 ```
